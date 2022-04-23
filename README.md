@@ -1,3 +1,4 @@
+THIS IS STEP-1 OF OUR URBAN MONITORING SYSTEM
 # DATA-ACQUISITION
 A custom build python based web Scraper which helps in building datasets from Google Earth Engine
 ## Abstract <br />
@@ -30,4 +31,17 @@ Terms:
 - Cloud Cover percentage--> Given multiple images of same place and time use the image with least cloud cover percentage
 - Shape file--> Geometrical file used to filter region of interest
 
-We first use **GEEMAP** to aquire the required image. This image is subject to many filteration like **Date-span**,**Region span**,**Cloud Cover percentage** etc.Then we create a shape file which is rectangular in shape. The coordinates of this shape files covers a small area of interest of the image.We download the image covered by this shape file. Then we up date the coordinates of the shape file to download the next image. We do this continously to build a dateset out Google Earth Engne data catalogue
+We first use **GEEMAP** to aquire the required image. This image is subject to many filteration like **Date-span**,**Region span**,**Cloud Cover percentage** etc.Then we create a shape file which is rectangular in shape. The coordinates of this shape files covers a small area of interest of the image.We download the image covered by this shape file. Then we up date the coordinates of the shape file to download the next image. We do this continously to build a dateset out Google Earth Engne data catalogue.
+
+The image downloaded from GEEMAP is in .tif format. Keras Segmentation models take input as **png** format. Images also undergo scaling. Then the images are downloaded in our local machine.
+
+Examples
+
+
+![SENTINEL](https://user-images.githubusercontent.com/52020282/164910907-3ae48741-3179-46dd-845d-f0e060063a17.png) ![URBAN_MASK-2](https://user-images.githubusercontent.com/52020282/164910913-0352a772-2e95-4f8b-b2ba-9b6b1ba7ebc8.png)
+
+![Unknown-3](https://user-images.githubusercontent.com/52020282/164911229-ac1b05d4-6b0e-4a53-abac-375e24dae720.png)![Unknown-4](https://user-images.githubusercontent.com/52020282/164911237-3a93e974-64e4-4249-bc31-f82d2b03f0db.png)
+
+This is how a dataset is created out of Google Earth Engine data catalogue
+
+NEXT IS STEP-2 DATA PRE-PROCESSING

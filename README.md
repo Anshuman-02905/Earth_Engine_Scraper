@@ -1,8 +1,8 @@
 # DATA-ACQUISITION
 A custom build python based web Scraper which helps in building datasets from Google Earth Engine
 ##Library used 
-**json**<br />
-**geemap**<br /> 
+-**json**
+-**geemap**
 **ee**<br />
 **geopandas**<br />
 **os**<br /> 

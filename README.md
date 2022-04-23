@@ -2,15 +2,15 @@
 A custom build python based web Scraper which helps in building datasets from Google Earth Engine
 ##Library used 
 **json
-geemap\
-ee__
-geopandas__
-os__
-glob__
-gdal__
-pandas__
-numpy__
-math__
-shapely__
-folium__**
+geemap. 
+ee. 
+geopandas. 
+os. 
+glob. 
+gdal. 
+pandas. 
+numpy. 
+math. 
+shapely. 
+folium. **
 

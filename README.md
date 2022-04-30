@@ -33,7 +33,7 @@ Terms:
 
 We first use **GEEMAP** to aquire the required image. This image is subject to many filteration like **Date-span**,**Region span**,**Cloud Cover percentage** etc.Then we create a shape file which is rectangular in shape. The coordinates of this shape files covers a small area of interest of the image.We download the image covered by this shape file. Then we up date the coordinates of the shape file to download the next image. We do this continously to build a dateset out Google Earth Engne data catalogue.
 
-The image downloaded from GEEMAP is in .tif format. Keras Segmentation models take input as **png** format. Images also undergo scaling. Then the images are downloaded in our local machine.\
+The image downloaded from GEEMAP is in .tif format. Keras Segmentation models take input as **png** format. So images undergo required scaling and conversions. Then the images are downloaded in our local machine.\
 
 The following images are acquired from Sentinel dataset and World Settlement Footprint 2015 dataset \
 

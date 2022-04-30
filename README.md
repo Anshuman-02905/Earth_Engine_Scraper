@@ -1,4 +1,4 @@
-THIS IS STEP-1 OF OUR URBAN MONITORING SYSTEM
+THIS IS STEP-1 MY OUR URBAN MONITORING SYSTEM
 # DATA-ACQUISITION
 A custom build python based web Scraper which helps in building datasets from Google Earth Engine
 ## Abstract <br />

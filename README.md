@@ -35,7 +35,7 @@ We first use **GEEMAP** to aquire the required image. This image is subject to m
 
 The image downloaded from GEEMAP is in .tif format. Keras Segmentation models take input as **png** format. Images also undergo scaling. Then the images are downloaded in our local machine.\
 
-The following images are acquired from Sentinel dataset and world settlemetn dataset
+The following images are acquired from Sentinel dataset and World Settlement Footprint 2015 dataset \
 
 Examples
 

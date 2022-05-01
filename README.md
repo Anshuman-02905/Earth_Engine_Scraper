@@ -1,4 +1,4 @@
-THIS IS STEP-1 MY OUR URBAN MONITORING SYSTEM
+
 # DATA-ACQUISITION
 A custom build python based web Scraper which helps in building datasets from Google Earth Engine
 ## Abstract <br />
@@ -46,7 +46,5 @@ Examples
 
 This is how a dataset is created out of Google Earth Engine data catalogue
 
-[Data Preparation](https://www.google.com) --Prototype Done ,improvements still in process\
-[Deep Learning](https://www.google.com) ---Still in process\
-[Report Generator](https://www.google.com) -- Next Phase
+
 
